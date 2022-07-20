@@ -77,3 +77,52 @@ console.log(div);
 // modulus (%) operator returns the remainder after integer division
 
 let number = 40;
+// number = number + 5;
+number +=5;
+number +=5;
+number -=5;
+number *=2;
+// number +=1;
+number++;
+number--;
+
+const slices = 10;
+const children = 3;
+const amount = slices / children;
+const leftover = slices % children;
+
+
+console.log(number);
+
+// data types - 7 total
+// primitive - string, number, boolean, null, undefined, symbol
+// object - array, functions, objects
+
+// typeof - operator (typeof variable) (typeof value)
+
+// string
+const text = "some text";
+// number
+const number = 4;
+// boolean
+let value1 = true;
+let value2 = false;
+// null
+let result = null;
+// undefined
+let name;
+// symbol (es6)
+
+
+console.log(typeof text);
+console.log(typeof "hello world");
+
+
+// Array
+// Arrays - [], 0 index based
+const friend1 = "anna";
+const friend2 = "anna";
+const friend3 = "anna";
+
+const friends = []
+
