@@ -197,3 +197,102 @@ const values = [firstValue, secondValue, add(5, 6)];
 console.log(values);
 
 const multiply = (num1, num2) => num1 * num2;
+
+// Arrays, functions and Objects
+// Objects - key/value pairs methods
+// dot notation
+
+const person = {
+  name: "john",
+  lastName: "peters",
+  age: 40,
+  education: false,
+  married: true,
+  siblings: ["anna", "susan", "peter"],
+  greeting: function () {
+    console.log("hello my name is JOHN");
+  },
+};
+
+const age = person.age;
+console.log(age);
+
+person.name = "bob";
+
+console.log(person.name);
+console.log(person.siblings[2]);
+person.greeting();
+
+// conditional statements
+// >, <, >=, <=, ==, ===, !=, !===
+
+// if the condition met then runs the code
+
+if (2 > 1) {
+  console.log("hello world");
+}
+const value = true;
+if (value) {
+  console.log("hello world");
+}
+if (false) {
+  console.log("hello world");
+}
+const value2 = 1 > 2;
+if (value2) {
+  console.log("conditional does not met");
+} else {
+  console.log("so this code runs");
+}
+
+// conditional statements
+// comparison operators
+// >, <, >=, <=, ==, ===, !=, !===
+// else if and !
+const num1 = 4;
+const num2 = 6;
+const result = num1 >= num2;
+if (num1 > num2) {
+  console.log("first number is bigger then second");
+} else if (result) {
+  console.log("first number equal to the second");
+} else {
+  console.log("second number is bigger than first");
+}
+
+const value = false;
+if (!value) {
+  console.log("value is not true");
+}
+
+// conditional statements
+// comparison operators
+// >, <, >=, <=, ==, ===, !=, !===
+// == checks only value
+// === checks value and type
+
+const num1 = 6;
+const num2 = "6";
+const value = num1 == num2;
+const value2 = num1 === num2;
+console.log(value);
+console.log(value2);
+
+const num1 = 6;
+const num2 = 10;
+const value = num1 != num2;
+const value2 = num1 !== num2;
+console.log(value);
+console.log(value2);
+
+// logical operators
+// (|| - or), (&& - and), !
+
+const name = "peter";
+const age = 24;
+
+if (name === "bob" || age === 24) {
+  console.log("hello there user");
+} else {
+  console.log("wrong values");
+}
