@@ -296,3 +296,58 @@ if (name === "bob" || age === 24) {
 } else {
   console.log("wrong values");
 }
+
+// switch
+// dice values: 1 -6
+
+const dice = 1;
+if (dice === 1) {
+  console.log("you got one");
+}
+else if (dice === 2) {
+  console.log("you got two");
+}
+else (dice < 1 || dice > 6) {
+  console.log("you did not roll the dice");
+}
+
+switch(dice){
+  case 1: console.log("you got one"); 
+  break;
+  case 2: console.log("you got two");
+  break;
+  case 3: console.log("you got three");
+  break;
+  default: console.log("you did not roll the dice");
+}
+
+
+// Loops
+// repeatedly run a block of code while conditions are true
+// while loops
+//  TURN OFF AUTOSAVE (file/autosave)
+
+
+let amount = 10;
+
+while (amount > 0){
+  console.log("I have" + amount + "dollars");
+  amount--;
+}
+
+// do while loop
+// code block first, condition second
+// runs at least once
+
+let money = 12;
+do{
+  console.log("you have " + money + "dollars");
+  money++;
+} while(money < 10);
+
+// for loop
+
+
+for(let i = 0; i<10;i++){
+  console.log("and the number is : " + i);
+}
